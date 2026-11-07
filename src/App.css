@@ -1,0 +1,100 @@
+.page {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 18px 16px 42px;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+blockquote {
+  font-family: Georgia, 'Times New Roman', serif;
+  color: #111111;
+}
+
+h1 {
+  margin: 0 0 18px;
+  font-size: clamp(2.1rem, 2.8vw, 3.75rem);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.intro {
+  margin: 0;
+  max-width: 1180px;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: #1f1f1f;
+}
+
+h2 {
+  margin: 26px 0 14px;
+  font-size: clamp(2rem, 2.3vw, 3rem);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.wonder-list {
+  margin: 0;
+  padding-left: 28px;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #111111;
+}
+
+.wonder-list li {
+  list-style: decimal;
+}
+
+blockquote {
+  margin: 18px 0 12px;
+  font-size: clamp(1.05rem, 1.5vw, 1.3rem);
+  font-style: italic;
+  font-weight: 500;
+  line-height: 1.6;
+  color: #111111;
+}
+
+.benefits-list {
+  margin: 0;
+  padding-left: 28px;
+  list-style: disc;
+  font-size: 1.05rem;
+  line-height: 2;
+  color: #111111;
+}
+
+.image-frame {
+  width: min(420px, 100%);
+  height: 290px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.image-frame img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.caption {
+  margin: 14px 0 0;
+  font-size: 1.05rem;
+  line-height: 1.4;
+  color: #2b2b2b;
+}
+
+.explore-link {
+  display: inline-block;
+  margin-top: 8px;
+  color: #1a44d1;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-size: 1rem;
+}
+
+.explore-link:hover {
+  text-decoration-thickness: 2px;
+}
